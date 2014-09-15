@@ -12,6 +12,7 @@
 		CCA0DEA519C60D1300390801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA0DEA319C60D1300390801 /* Main.storyboard */; };
 		CCA0DEA719C60D1300390801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA0DEA619C60D1300390801 /* Images.xcassets */; };
 		CCA0DEB319C60D1300390801 /* AgeOfDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0DEB219C60D1300390801 /* AgeOfDogTests.swift */; };
+		CCA0DEBD19C60D2F00390801 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA0DEBC19C60D2F00390801 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		CCA0DEAC19C60D1300390801 /* AgeOfDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA0DEB119C60D1300390801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA0DEB219C60D1300390801 /* AgeOfDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfDogTests.swift; sourceTree = "<group>"; };
+		CCA0DEBC19C60D2F00390801 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AgeOfLaika.jpg; path = AgeOfDogTests/AgeOfLaika.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		CCA0DE9D19C60D1300390801 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCA0DEBC19C60D2F00390801 /* AgeOfLaika.jpg */,
 				CCA0DE9E19C60D1300390801 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA0DEBD19C60D2F00390801 /* AgeOfLaika.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +399,7 @@
 				CCA0DEB819C60D1300390801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCA0DEB919C60D1300390801 /* Build configuration list for PBXNativeTarget "AgeOfDogTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				CCA0DEBB19C60D1300390801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
